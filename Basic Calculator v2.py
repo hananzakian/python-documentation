@@ -7,6 +7,7 @@ Select calculator:
   2. Multiplication
   3. Subtraction
   4. Division
+  5. Exponentiation
 """
 )
 
@@ -44,3 +45,11 @@ if calc == 4:
   print('\n')
   div = num1 / num2
   print(num1, ':', num2, '=', div)
+
+if calc == 5:
+  print('=====EXPONENTIATION CALCULATOR=====\n')
+  num1 = int(input('Input your first number: '))
+  num2 = int(input('Input your second number: '))
+  exp = num1 ** num2
+  print('\n')
+  print(num1, '^',  num2, '=',  exp)
